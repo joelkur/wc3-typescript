@@ -1,0 +1,25 @@
+{
+  "map": "./maps/example.w3x",
+  "output": {
+    "dir": "./build",
+    "filename": "output.w3x",
+    "minify": true
+  },
+  "extract": {
+    "dir": "./src",
+    "filename": "map.d.ts",
+    "exportAsObject": {
+      "dir": "./src",
+      "filename": "mapdata.ts"
+    }
+  },
+  "executables": {
+    "game": "C:\\Program Files\\Warcraft III\\_retail_\\x86_64\\Warcraft III.exe",
+    "worldEditor": "C:\\Program Files\\Warcraft III\\_retail_\\x86_64\\World Editor.exe",
+    "launchArguments": [
+      "-launch",
+      "-windowmode",
+      "windowed"
+    ]
+  }
+}

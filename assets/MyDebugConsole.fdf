@@ -1,0 +1,7 @@
+IncludeFile "UI\FrameDef\glue\battlenettemplates.fdf",  //Frames from that fdf can be inherited in this file
+
+Frame "TEXTAREA" "MyDebugConsole" INHERITS WITHCHILDREN "BattleNetTextAreaTemplate" {
+    DecorateFileNames,
+    FrameFont "MasterFont", 0.020, "",
+    TextAreaLineHeight 0.015,
+}

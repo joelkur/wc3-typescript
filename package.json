@@ -1,0 +1,24 @@
+{
+  "name": "wc3-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript-to-lua": "^0.41.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.2",
+    "lua-types": "^2.10.1",
+    "luamin": "^1.0.4",
+    "npm-watch": "^0.10.0"
+  },
+  "scripts": {
+    "extract": "node scripts/extract-map.js",
+    "open": "npm run build && node scripts/open-map.js",
+    "open:we": "node scripts/open-map.js --we",
+    "build": "tstl && node scripts/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
